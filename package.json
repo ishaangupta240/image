@@ -19,6 +19,7 @@
   "author": "Ishaan Gupta",
   "license": "UNLICENSED",
   "dependencies": {
+    "@vercel/node": "^2.10.3",
     "nuxt": "^3.13.2"
   }
 }
