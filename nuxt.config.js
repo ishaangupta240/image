@@ -1,9 +1,9 @@
 export default {
-    target: 'static', // Static site generation
-    ssr: false, // Disable server-side rendering
-    generate: {
-      fallback: '404.html' // Fallback to prevent 404 errors
-    },
-    vite: false
-  }
-  
+  target: 'static',
+  ssr: false,
+  generate: {
+    fallback: '404.html',
+  },
+  // Disable Vite if not needed
+  vite: false, 
+}
